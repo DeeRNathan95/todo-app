@@ -13,10 +13,10 @@ function App() {
 
   return (
       <>
-      <Header />
-      <Tabs />
-      <TodoList />
-      <TodoInput />
+      <Header todos={todos} />
+      <Tabs todos={todos} />
+      <TodoList todos={todos} />
+      <TodoInput todos={todos} />
   </>
   )
 }
