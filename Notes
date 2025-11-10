@@ -19,3 +19,36 @@ Attributes = static, initial value in the markup.
 Properties = dynamic, can change as the user interacts.
 
 ====================================================================
+DOM Object Definition
+
+A DOM (Document Object Model) object is the JavaScript representation of an HTML element in the browser. It allows you to access and manipulate elements dynamically using JS.
+
+In simple terms:
+
+The DOM is like a tree of objects created by the browser from your HTML.
+
+Each HTML element becomes a DOM object with properties, methods, and events.
+
+Example: HTML
+<div id="myDiv">Hello World</div>
+
+JS:
+const div = document.getElementById('myDiv'); // div is a DOM object
+
+console.log(div.innerHTML);  // "Hello World"  -> property
+div.innerHTML = "Hi!";       // changes content on the page
+
+<div> in HTML → DOM object in JS
+
+innerHTML → property of that DOM object
+
+addEventListener() → method of that DOM object
+
+Memory Trick
+
+HTML = blueprint; DOM object = live element in JS you can manipulate.
+
+Think of it like: the HTML is the plan, the DOM is the actual “object” in memory you can touch, change, and interact with in your code.
+
+======================================================================================
+
