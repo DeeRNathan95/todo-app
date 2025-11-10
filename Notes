@@ -1,0 +1,21 @@
+The differences between an attribute and property:
+
+Attribute (HTML level):
+
+“An attribute is a value defined in the HTML markup that sets the initial state of an element.”
+
+Property (DOM/JS level):
+
+“A property is a value stored in the DOM object in JavaScript, reflecting the current state of the element.”
+
+Memory Trick
+
+Think of it like this:
+
+“Attributes are what’s written in the HTML; properties are what’s live in the page.”
+
+Attributes = static, initial value in the markup.
+
+Properties = dynamic, can change as the user interacts.
+
+====================================================================
