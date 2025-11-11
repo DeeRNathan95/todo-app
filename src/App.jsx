@@ -2,14 +2,18 @@ import { Header } from "./components/Header"
 import { Tabs } from "./components/Tabs"
 import { TodoInput } from "./components/TodoInput"
 import { TodoList } from "./components/TodoList"
+import {useState} from 'react'
 
 function App() {
-  const todos = [
-    {input: 'Hello! Add your first todo!', complete: true},
-    {input: 'Get the groceries!', complete: false},
-    {input: 'Learn how to web design!', complete: false},
-    {input: 'Say hi to gran gran!', complete: true},
-  ]
+  // const todos = [
+  //   {input: 'Hello! Add your first todo!', complete: true},
+  //   {input: 'Get the groceries!', complete: false},
+  //   {input: 'Learn how to web design!', complete: false},
+  //   {input: 'Say hi to gran gran!', complete: true},
+  // ]
+
+  const [todos, setTodos] = useState([])  //square bracket first param value, 2nd param is the set function.
+//Use state is a react hook where react hooks adjusts functionality for manupulating or managing data or page.
 
   return (
       <>
