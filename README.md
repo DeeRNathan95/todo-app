@@ -72,7 +72,7 @@ This structure supports future scalability, with each project hosted on its own 
 
 - Structuring a React project with reusable components
 - Managing state with `useState`
-- Handling side effects with "useEffect"
+- Handling side effects with `useEffect`
 - Handling user input and dynamic rendering
 - Building and deploying a static site with Vite
 - Organising subdomains for scalable portfolio hosting
