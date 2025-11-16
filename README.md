@@ -6,9 +6,9 @@
 
 ### 📌 Overview
 
-This is a responsive and interactive **To-Do List application** built with **ReactJS**, designed to help users manage daily tasks with ease. It features task creation, completion toggling, and deletion — all wrapped in a clean, component-based architecture.
+This is a responsive and interactive **To-Do List application** built with **ReactJS**, designed to help users manage daily tasks with ease. It features task creation, completion toggling, and deletion. All wrapped in a clean, component-based architecture.
 
-This project marks the beginning of my React journey, where I explored core concepts like state management, props, component composition, and dynamic rendering. It also served as my first deployment using Hostinger and subdomain structuring.
+This project marks the beginning of my React journey, where I explored core concepts like state management, props, component composition, and dynamic rendering. It also served as my second deployment using Hostinger and first subdomain structuring.
 
 ---
 
@@ -28,6 +28,8 @@ This project marks the beginning of my React journey, where I explored core conc
 - ✅ Delete tasks
 - ✅ Component-based structure
 - ✅ Responsive layout
+- ✅ Side effects handled with useEffect
+
 
 ---
 
@@ -60,7 +62,7 @@ todo-app/
 
 The app was deployed to a custom subdomain using Hostinger’s File Manager. The contents of the `dist` folder were uploaded to `/public_html/todo-app`, allowing the app to be accessed via:
 
-> [https://todo-app.webstudiobydee.com](https://todo-app.webstudiobydee.com)
+> [www.todo-app.webstudiobydee.com](www.todo-app.webstudiobydee.com)
 
 This structure supports future scalability, with each project hosted on its own subdomain.
 
@@ -70,9 +72,10 @@ This structure supports future scalability, with each project hosted on its own 
 
 - Structuring a React project with reusable components
 - Managing state with `useState`
+- Handling side effects with "useEffect"
 - Handling user input and dynamic rendering
 - Building and deploying a static site with Vite
-- Organizing subdomains for scalable portfolio hosting
+- Organising subdomains for scalable portfolio hosting
 
 ---
 
@@ -83,6 +86,3 @@ This structure supports future scalability, with each project hosted on its own 
 - Convert to a Progressive Web App (PWA)
 - Add notification support for pending tasks
 
----
-
-Let me know if you’d like help writing matching README files for future projects, or scaffolding a landing page that links to all your subdomains. We can make your portfolio shine.
