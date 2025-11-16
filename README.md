@@ -1,6 +1,6 @@
 ## 📝 To-Do App — ReactJS Project
 
-**Live Demo:** [https://todo-app.webstudiobydee.com](https://todo-app.webstudiobydee.com)
+**Live Demo:** [www.todo-app.webstudiobydee.com](https://todo-app.webstudiobydee.com)
 
 ---
 
